@@ -14,7 +14,7 @@ const Routes = () => (
     <Switch>
       <Guest path="/signin" component={SignIn} />
       <Guest path="/signup" component={SignUp} />
-      <Private path="/" exact component={Main} />
+      <Private path="/" component={Main} />
     </Switch>
   </Router>
 );
