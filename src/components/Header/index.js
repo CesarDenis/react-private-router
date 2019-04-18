@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, NavbarBrand, Nav, NavLink, NavItem } from 'reactstrap';
+import { Navbar, Nav, NavLink, NavItem } from 'reactstrap';
 
 const Header = () => (
   <Navbar color="light" light expand="md">
-    <NavbarBrand href="/">Private Router</NavbarBrand>
+    <Link to="/" className="navbar-brand">
+      Private Router
+    </Link>
     <Nav className="ml-auto" navbar>
       <NavItem>
         <Link to="/" className="nav-link">
@@ -17,7 +19,7 @@ const Header = () => (
         </Link>
       </NavItem>
       <NavItem>
-        <NavLink href="#">Some Page</NavLink>
+        <NavLink href="/signin">Log out</NavLink>
       </NavItem>
     </Nav>
   </Navbar>
