@@ -1,12 +1,12 @@
 import React from 'react';
 import { Route, Redirect, Switch } from 'react-router-dom';
 
-import Header from '../components/Header';
+import Header from '../../components/Header';
 
-import Dashboard from '../pages/Dashboard';
-import Users from '../pages/Users';
+import Dashboard from '../../pages/Dashboard';
+import Users from '../../pages/Users';
 
-const Main = () => {
+const DefaultLayout = () => {
   return (
     <div id="app-container">
       <Header />
@@ -21,4 +21,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default DefaultLayout;
