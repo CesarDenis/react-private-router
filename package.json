@@ -1,7 +1,16 @@
 {
   "name": "react-private-router",
   "version": "0.1.0",
-  "private": true,
+  "description": "React Nested Routing Demo",
+  "author": "Cesar Denis <cesar@cesardenis.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CesarDenis/react-private-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CesarDenis/react-private-router/issues"
+  },
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
